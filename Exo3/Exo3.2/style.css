@@ -1,0 +1,128 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("./image/BackgroundGold.jpg");
+    background-size: cover;
+}
+
+main {
+    width: 60%;
+    height: 100vh;
+    background: white;
+    margin: auto;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(230, 176, 75);
+    font-size: 3rem;
+}
+
+.coordonees {
+    width: 80%;
+    margin: auto;
+
+}
+
+fieldset {
+    width: 95%;
+    margin: 5px auto;
+    padding-bottom: 10px;
+}
+legend {
+    margin-left: 10px;
+}
+form  {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+input {
+    width: 45%;
+}
+
+.nom-prenom, .telephone {
+    margin-left: 15px;
+    margin-top: 10px;
+}
+
+.nom-prenom > input:nth-child(1), .telephone > input:nth-child(1) {
+    margin-right: 15px;
+}
+
+.sexe {
+    margin-top: 15px ;
+    margin-left: 15px;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sexe > h4 {
+    margin-right: 50px;
+}
+
+.mail {
+    width: 91%;
+    margin-left: 15px;
+}
+
+.besoin {
+    width: 80%;
+    margin: auto;
+
+}
+
+.desc-besoin {
+    display: flex;
+   justify-content: center;
+   align-items: flex-start;
+    width: 100%;
+    margin-top: 15px;
+}
+
+.desc-besoin > select {
+    width: 20%;
+    margin-left: 15px;
+    background: rgb(172, 166, 166);
+}
+option {
+    background: white;
+}
+
+textarea {
+    width: 77%;
+    height: 5em;
+}
+.bouton {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin: 5px auto;
+
+}
+
+.envoie-reset {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.envoie-reset > button {
+    width: 45%;
+    background: rgb(202, 202, 146);
+    border: 2px solid gray;
+}
+
+.retour {
+    width: 95%;
+    margin: 5px auto;
+    background: rgb(202, 202, 146);
+    border: 2px solid gray;
+
+}

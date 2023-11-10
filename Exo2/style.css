@@ -1,0 +1,111 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background: url("./images/BackgroundGold.jpg");
+    background-size: cover;
+}
+
+main {
+    width: 70%;
+    height: 100vh;
+    margin: auto;
+    background: white;
+}
+
+h2 {
+    color: rgb(187, 187, 79);
+    font-size: 3em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+.informations {
+    width: 100%;
+    height: 50%;
+}
+
+.flex-infos {
+    display: flex;
+    width: 100%;
+}
+
+.experiences-competences {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.image-nom {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    margin: 25px auto;
+
+}
+dd {
+    padding-left: 15px;
+}
+img {
+    width: 50%;
+    margin: auto;
+}
+
+h2, h3, h4 {
+    text-align: center;
+}
+
+.experiences, .competences {
+    width: 100%;
+    margin: 0 auto;
+}
+.experiences-section {
+    width: 70%;
+    margin: 77px auto;
+    border: 2px solid yellow;
+}
+.competences-section {
+    width: 70%;
+    margin: 20px auto;
+    border: 2px solid yellow;
+}
+
+.experiences-section > h3 {
+    background: rgb(216, 216, 171);
+    border-bottom: 2px solid yellow;
+
+}
+.competences-section > h3 {
+    background: rgb(216, 216, 171);
+    border-bottom: 2px solid yellow;
+
+}
+
+.formation {
+    width: 90%;
+    margin: auto;
+    border: 2px solid yellow;
+
+}
+
+.formation > h3 {
+    background: rgb(216, 216, 171);
+    border-bottom: 2px solid yellow;
+
+}
+h5 {
+    font-size: 1.1em;
+    color: rgb(216, 216, 171);
+}
+
+li {
+    list-style-type: circle;
+}
+
+ul {
+    margin-left: 30px;
+}
